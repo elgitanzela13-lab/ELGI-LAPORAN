@@ -2,10 +2,63 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>ELGI LAPORAN</title>
+  <title>ELGI SCM Dashboard</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Halo 👋</h1>
-  <p>Website ELGI-LAPORAN sudah online</p>
+
+<header class="navbar">
+  <h2>📦 ELGI SCM Center</h2>
+</header>
+
+<main class="container">
+
+  <!-- STAT CARDS -->
+  <section class="cards">
+    <div class="card">
+      <p>Total Inventory</p>
+      <h2>14,203</h2>
+    </div>
+    <div class="card">
+      <p>Inbound Today</p>
+      <h2>24</h2>
+    </div>
+    <div class="card">
+      <p>Pending Issues</p>
+      <h2>3</h2>
+    </div>
+    <div class="card">
+      <p>Trading Volume</p>
+      <h2>$45.2k</h2>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <section class="content">
+
+    <div class="box">
+      <h3>📢 Live Feed</h3>
+      <ul>
+        <li>Shipment Trading tiba di Plant Perawang</li>
+        <li>Shipment Waiting Approval</li>
+        <li>Shipment tiba di Plant IKPP</li>
+      </ul>
+    </div>
+
+    <div class="box blue">
+      <h3>💱 Kurs Valas</h3>
+      <table>
+        <tr><th>Mata Uang</th><th>Beli</th><th>Jual</th></tr>
+        <tr><td>USD</td><td>15,450</td><td>15,600</td></tr>
+        <tr><td>SGD</td><td>11,450</td><td>11,600</td></tr>
+        <tr><td>EUR</td><td>16,800</td><td>17,100</td></tr>
+      </table>
+    </div>
+
+  </section>
+
+</main>
+
+<script src="script.js"></script>
 </body>
 </html>
